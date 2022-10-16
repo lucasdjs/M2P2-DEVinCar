@@ -1,5 +1,5 @@
 ﻿using DEVinCar.Domain.Models;
-using DEVinCar.Api.Data;
+using DEVinCar.Infra.Data;
 using DEVinCar.Api.DTOs;
 using DEVinCar.Api.ViewModels;
 using Microsoft.EntityFrameworkCore;

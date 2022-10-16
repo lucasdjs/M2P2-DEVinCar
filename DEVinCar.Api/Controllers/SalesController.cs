@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using DEVinCar.Api.Data;
+using DEVinCar.Infra.Data;
 using DEVinCar.Api.DTOs;
 using DEVinCar.Domain.Models;
 using Microsoft.AspNetCore.Mvc;

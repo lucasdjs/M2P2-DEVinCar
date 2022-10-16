@@ -40,24 +40,6 @@ public class DevInCarDbContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
 
-        // Exemplo
-        // modelBuilder.Entity<XYZ>(entidade =>
-        // {
-        //     entidade.ToTable("[XYZ]s");
-
-        //     entidade.HasKey(a => a.Id);
-
-        //     entidade
-        //         .Property(a => a.[prop])
-        //         .HasMaxLength(120)
-        //         .IsRequired();
-
-        //     entidade
-        //         .HasData(new[]{
-        //             ...
-        //         });
-        // });
-
         modelBuilder.Entity<City>(entity =>
         {
             entity.ToTable("Cities");
