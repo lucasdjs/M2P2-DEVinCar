@@ -1,5 +1,5 @@
 using System.Runtime.InteropServices;
-using DEVinCar.Api.Models;
+using DEVinCar.Domain.Models;
 namespace DEVinCar.Api.ViewModels;
 public class SaleViewModel
 {

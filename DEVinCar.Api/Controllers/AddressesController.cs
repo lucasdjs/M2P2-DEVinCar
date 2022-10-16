@@ -1,11 +1,12 @@
-﻿using DEVinCar.Api.Models;
-using DEVinCar.Api.Data;
-using DEVinCar.Api.DTOs;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
+using DEVinCar.Api.Data;
 using DEVinCar.Api.ViewModels;
+using DEVinCar.Api.DTOs;
+using DEVinCar.Domain.Models;
+using DEVinCar.Infra.Data;
 
-namespace DEVinCar.Api.Controllers;
+namespace DEVinCer.Domain.Models;
 
 [ApiController]
 [Route("api/address")]
